@@ -4,38 +4,157 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Offra - Offline Voice Translation</title>
+  <meta name="description" content="Offra is a privacy-first offline voice translation app for fast, secure communication." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="container">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="offra-icon.png" alt="Offra app icon" />
+      <span>Offra</span>
+    </a>
+
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how">How it Works</a>
+      <a href="#privacy">Privacy</a>
+      <a href="support.html">Support</a>
+    </nav>
+
+    <a class="header-button" href="#">Download Soon</a>
+  </header>
+
+  <main>
     <section class="hero">
-      <h1>Offra</h1>
-      <p class="subtitle">Offline voice translation for fast, private conversations.</p>
-      <p>
-        Offra helps you capture speech, convert it to text, and translate it directly on your device.
-        The app is designed for privacy-first translation without requiring cloud accounts or unnecessary data sharing.
-      </p>
-      <div class="links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="support.html">Support</a>
-        <a href="terms.html">Terms of Use</a>
+      <div class="hero-bg"></div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Offline voice translation</p>
+          <h1>Speak.<br />Translate.<br /><span>Offline.</span></h1>
+          <p class="hero-description">
+            Offra is a privacy-first voice translation app that works directly on your device.
+            No cloud dependency. No tracking. Just real communication.
+          </p>
+
+          <div class="hero-actions">
+            <a class="app-store-button" href="#">
+              <span class="apple">Apple</span>
+              <span>
+                <small>Download on the</small>
+                App Store
+              </span>
+            </a>
+            <a class="secondary-button" href="#features">Learn More</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="icon-card">
+            <img src="offra-icon.png" alt="Offra translation icon" />
+          </div>
+          <div class="trust-pill">
+            <span>100% Offline</span>
+            <span>Private</span>
+            <span>Secure</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Key features</h2>
-      <ul>
-        <li>Voice capture using the device microphone</li>
-        <li>Speech recognition for converting voice to text</li>
-        <li>Translation-focused workflow</li>
-        <li>Privacy-first design</li>
-      </ul>
+    <section id="features" class="section">
+      <p class="section-label">Features</p>
+      <h2>Everything you need for seamless communication</h2>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">A</div>
+          <h3>Offline Translation</h3>
+          <p>No internet required. Works anywhere, anytime.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">M</div>
+          <h3>Voice to Text</h3>
+          <p>Capture speech and convert it into text instantly.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">F</div>
+          <h3>Fast and Lightweight</h3>
+          <p>Designed for real-time conversations with minimal friction.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">S</div>
+          <h3>Privacy First</h3>
+          <p>Your voice and translations are handled with privacy in mind.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:support@ogray.com">support@ogray.com</a></p>
+    <section id="how" class="how-section">
+      <p class="section-label">How it works</p>
+      <h2>Three simple steps</h2>
+
+      <div class="steps">
+        <article class="step">
+          <div class="step-circle">1</div>
+          <h3>Tap and Speak</h3>
+          <p>Tap the microphone and speak clearly in your language.</p>
+        </article>
+
+        <div class="step-line"></div>
+
+        <article class="step">
+          <div class="step-circle">2</div>
+          <h3>Speech to Text</h3>
+          <p>Offra converts your speech into text for translation.</p>
+        </article>
+
+        <div class="step-line"></div>
+
+        <article class="step">
+          <div class="step-circle">3</div>
+          <h3>Get Translation</h3>
+          <p>Receive the translated text in the target language.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="privacy" class="privacy-section">
+      <div>
+        <p class="section-label">Privacy</p>
+        <h2>Your privacy is our priority</h2>
+        <p>
+          Offra is built with privacy as a core principle. No advertising trackers.
+          No unnecessary accounts. Designed for offline-first translation.
+        </p>
+        <a href="privacy.html">Read our Privacy Policy</a>
+      </div>
+
+      <ul class="privacy-list">
+        <li>No data selling</li>
+        <li>No advertising trackers</li>
+        <li>Offline-first design</li>
+        <li>Microphone used only for translation</li>
+      </ul>
     </section>
   </main>
+
+  <footer>
+    <a class="footer-brand" href="index.html">
+      <img src="offra-icon.png" alt="Offra icon" />
+      <span>Offra</span>
+    </a>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="support.html">Support</a>
+    </div>
+
+    <p>© 2026 Offra</p>
+  </footer>
 </body>
 </html>
